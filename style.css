@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navber{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-log{
+    height: 50px;
+    width: 100px;
+}
+.log{
+    background-image: url(Amazon.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-frist{
+    color: #cccccc;
+    font-size :0.8rem;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-address{
+    margin-left: 10px;
+    align-items: center;
+}
+/** box 3 **/
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 10px;
+    align-items: center;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    height: 40px;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+
+}
+.search-input{
+    width:100%;
+    
+    border:none;
+}
+.search-icon{
+    width: 40px;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+/** box 4**/
+.nav-first{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.nav-search :hover{
+    border:2px solid orange;
+}
+/**panel**/
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.panel-deal{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+/** hero_section**/
+.hero_section{
+    background-image: url(hero_image.png);
+    height: 400px;
+    background-size: cover;
+    
+}
+/** shop section **/
+.shop_section{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.box{
+    /*border: 2px solid black;*/
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+}
+.box1_image{
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    color: #007185;
+}
+/** footer **/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    margin: 25px;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel3{
+    background-color: #0f1111;
+    color: white;
+    display: block;
+    height: 100px;
+
+}
+.foot-pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copy{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
