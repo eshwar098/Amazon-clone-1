@@ -1,3 +1,3 @@
-# Amazon-clone-1
-# this is my frist project is based on html and css
+# Amazon-clone
+# this is my frist project based on html and css
 
